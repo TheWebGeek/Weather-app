@@ -1,10 +1,14 @@
 # Weather-app
 A mini node app that fetch weather from your command line
-how to run ?
+
+
+How to run ? 
 First you must have Node.js installed on your computer
-if you don't you cn easily download it from here: https://nodejs.org/en/
+if you don't you can easily download it from here: https://nodejs.org/en/
+
 after that run : npm install
 in your command line
+
 after installing the nessary libraries 
 head over to https://darksky.net/dev 
 and create an account for developers
