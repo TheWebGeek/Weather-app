@@ -1,10 +1,11 @@
 const request = require("request");
+var your_api = "put_in_your_api_key"; //Change this with your api at https://darksky.net/dev
 
 var getWeather = (lat , lng , callback) => {
 
 request(
   {
-    url: `https://api.darksky.net/forecast/fe9ecfbc92f5c7cb9135344f654b2223/${lat},${lng}`,
+    url: `https://api.darksky.net/forecast/${your_api}/${lat},${lng}`,
     json: true
   },
   (error, response, body) => {
